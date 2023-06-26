@@ -1,0 +1,12 @@
+.text {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.key {
+    font-weight: 600;
+}
+
+.title {
+    font-weight: 400;
+}

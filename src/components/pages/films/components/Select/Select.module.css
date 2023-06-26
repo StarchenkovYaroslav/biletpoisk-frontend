@@ -1,0 +1,42 @@
+.label {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0 0 4px;
+}
+
+.field {
+    align-items: center;
+    border: 1px solid #e1e3e6;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px;
+    margin-bottom: 4px;
+}
+
+.title {
+    color: #999fa6;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.titleSelected {
+    color: #1b1f23;
+}
+
+.button {
+    background: url("../../../../../images/arrow-down-icon.svg") no-repeat center / cover;
+    border: none;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+}
+
+.buttonOpen {
+    background-image: url("../../../../../images/arrow-up-icon.svg");
+}

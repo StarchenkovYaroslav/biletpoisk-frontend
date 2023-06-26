@@ -1,0 +1,11 @@
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+}

@@ -1,0 +1,19 @@
+.page {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.popups {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+}
+
+.selects {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}

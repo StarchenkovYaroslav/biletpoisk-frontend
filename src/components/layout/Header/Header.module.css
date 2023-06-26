@@ -1,0 +1,30 @@
+.header {
+    align-items: center;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 0;
+    text-decoration: none;
+}
+
+.cartContainer {
+    align-items: center;
+    display: flex;
+}
+
+.cartLink {
+    background: url("../../../images/basket.svg") no-repeat center / contain;
+    height: 25px;
+    width: 28px;
+}

@@ -1,0 +1,66 @@
+.overlay {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 16px;
+}
+
+.title {
+    color: #1b1f23;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0;
+}
+
+.closeButton {
+    background-color: #fff;
+    background-image: url("../../../images/delete-icon.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+}
+
+.question {
+    color: #1b1f23;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    margin: 0 0 34px;
+}
+
+.buttons {
+    align-items: center;
+    display: flex;
+    column-gap: 8px;
+}
+
+.button {
+    border: 1px solid #f50;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 16px;
+}
+
+.yesButton {
+    background-color: #f50;
+    color: #fff;
+}
+
+.noButton {
+    background-color: #fff;
+    color: #f50;
+}

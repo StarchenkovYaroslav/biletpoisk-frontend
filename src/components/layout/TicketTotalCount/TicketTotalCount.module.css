@@ -1,0 +1,13 @@
+.count {
+    color: #fff;
+    background-color: #f50;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0 8px 0 0;
+    min-width: 28px;
+    padding: 4px 6px;
+    text-align: center;
+}

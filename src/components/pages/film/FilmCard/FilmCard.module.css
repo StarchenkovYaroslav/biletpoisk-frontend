@@ -1,0 +1,46 @@
+.card {
+    margin: 0 0 24px;
+}
+
+.container {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filmImageContainer {
+    margin: 0 32px 0 0;
+}
+
+.filmImage {
+    border-radius: 8px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    width: 400px;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 24px;
+}
+
+.filmName {
+    margin: 0;
+}
+
+.filmInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 32px;
+    row-gap: 16px;
+}
+
+.descriptionTitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0;
+}

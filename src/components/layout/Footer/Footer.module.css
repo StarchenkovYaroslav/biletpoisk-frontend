@@ -1,0 +1,15 @@
+.footer {
+    align-items: center;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-decoration: none;
+}

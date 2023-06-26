@@ -1,0 +1,36 @@
+.content {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filmInfo {
+    display: flex;
+    column-gap: 24px;
+}
+
+.filmImage {
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+    width: 100px;
+}
+
+.filmTitle {
+    color: #1b1f23;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0 0 8px;
+    text-decoration: none;
+}
+
+.filmGenre {
+    color: #1b1f23;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.25;
+    margin: 0;
+}
